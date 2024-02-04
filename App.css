@@ -1,0 +1,143 @@
+.add{
+  margin-top: 5px;
+  background-color: black;
+  color: cyan;
+}
+.btn{
+  margin-top: 10px;
+  background-color: red;
+  color: aqua;
+}
+.div{
+  margin-top: 50px;
+  margin-left: 200px;
+  display: block;
+  
+}
+
+
+
+.maindiv{
+  
+  border-radius: 20px;
+  padding: 10px;
+  width: 500px;
+  
+   
+}
+.maintodo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.mainbtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+  
+
+
+.signup,.signin,.loginsubmit,.signupbtn,.add{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 30px;
+}
+
+.signup:hover,.signin:hover,.loginsubmit:hover,.logoutbtn:hover,.add:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+body{
+  background-color:rgb(32, 5, 29);
+}
+.listapp{
+  color: cyan;
+}
+.loginh,.signuppara{
+  color: cyan;
+   
+  
+}
+.mainlogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.loginform{
+  display: flex;
+  flex-direction: column;
+}
+.loginpassword{
+  margin-top: 20px;
+}
+.loginemail,.loginpassword{
+  height: 30px;
+  width:350px;
+  display: block;
+  border-radius: 7px;
+  border-color:crimson;
+}
+.signupform{
+  display: flex;
+  flex-direction: column;
+}
+.signinmain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.signupname,.signupemail,.signupnumber,.signuppassword{
+  margin-top: 10px;
+  height: 30px;
+  width:350px;
+  display: block;
+  border-radius: 7px;
+  border-color:crimson;
+}
+.todotext{
+  color: cyan;
+}
+
+.todo,.date{
+  color: white;
+}
+.mainpara,.mainpara1,.mainpara2{
+  color: aliceblue;
+}
+.mainpara1{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.mainpara2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.mainpara{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
